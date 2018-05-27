@@ -94,4 +94,15 @@ class JobController extends Controller
     {
 
     }
+
+    /**
+     * Approve the specified resource.
+     *
+     * @param  \App\Job  $job
+     * @return \Illuminate\Http\Response
+     */
+    public function approve(Job $job)
+    {
+
+    }
 }
